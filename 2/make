@@ -1,0 +1,10 @@
+gcc -c src/rc4.c        -o src/rc4.o
+gcc -c src/rc4_test.c   -o src/rc4_test.o
+gcc -c src/stats.c      -o src/stats.o
+gcc -c src/do_command.c -o src/do_command.o
+
+gcc src/rc4.o src/rc4_test.o -o rc4_test
+
+gcc src/rc4.o src/stats.o src/do_command.o -o stats
+
+strip stats

@@ -1,0 +1,32 @@
+body {
+    background: #000000;
+    color: #ffcc66;
+}
+
+body, td, div {
+    font-family: Monospace, Courier New;
+    font-size: 10pt;
+}
+
+a:link, a:visited, a:active {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+#content_wrapper {
+    width: 100%;
+    text-align: center:
+}
+
+#content {
+    width: 700px;
+    text-align: left;
+    border: 1px solid #999999;
+    background: #1f1f1f;
+    padding: 6px;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 0;
+}

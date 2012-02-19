@@ -1,0 +1,6 @@
+scp index.php shells.myw3b.net:~/public_html/haxathon2012/
+scp style.css shells.myw3b.net:~/public_html/haxathon2012/
+scp hahaha.php shells.myw3b.net:~/public_html/haxathon2012/
+scp -r m shells.myw3b.net:~/public_html/haxathon2012/
+scp -r templates shells.myw3b.net:~/public_html/haxathon2012/
+scp -r includes shells.myw3b.net:~/public_html/haxathon2012/
