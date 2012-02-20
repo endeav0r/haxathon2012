@@ -31,7 +31,7 @@ int main (int argc, char * argv[])
          && (command != 2)
          && (command != 3)) {
         printf("Potent Pwnables Remote Monitoring\n");
-        printf("usage: %s <option>\n");
+        printf("usage: %s <option>\n", argv[0]);
         printf("options:\n");
         printf(" 1  list processes\n");
         printf(" 2  show free disk space\n");
