@@ -11,8 +11,8 @@
 #include <arpa/inet.h>
 
 #define PORT "9997"
-#define HOST "localhost"
-//#define HOST "207.192.75.146"
+//#define HOST "localhost"
+#define HOST "10.0.3.22"
 
 #include "rc4.h"
 
