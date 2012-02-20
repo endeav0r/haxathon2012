@@ -1,10 +1,10 @@
 body {
     background: #000000;
-    color: #ffcc66;
 }
 
-body, td, div {
+body, td, div, input {
     font-family: Monospace, Courier New;
+    color: #ffcc66;
     font-size: 10pt;
 }
 
@@ -18,6 +18,11 @@ a:link, a:visited, a:active {
     text-align: center:
 }
 
+input {
+    background: #000;
+    border: 1px solid #999;
+}
+
 #content {
     width: 700px;
     text-align: left;
@@ -28,5 +33,19 @@ a:link, a:visited, a:active {
 }
 
 p {
-    margin-top: 0;
+    margin: 0;
+}
+
+.box_wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    text-align: left;
+    width: 80%;
+    background: #0f0f0f;
+    padding: 8px;
+    border: 1px solid #666;
+    margin: 0 auto;
 }

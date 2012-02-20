@@ -1,13 +1,20 @@
-<h3 align="center">Flag Submission</h3>
+<h3 align="center">Submit Flag</h3>
 
 <table align="center">
+    <form action="./" method="post">
+    <input type="hidden" name="submit" value="submit" />
+    <input type="hidden" name="a" value="submit" />
     <tr>
-        <td>Password</td>
+        <td><strong>Password</strong></td>
         <td><input type="password" name="password" /></td>
     </tr>
     <tr>
-        <td>Flag</td>
-        <td><input name="flag" /></td>
+        <td><strong>Flag</strong></td>
+        <td><input type="text" name="flag" /></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Submit Flag" /></td>
     </tr>
 </table>
-
+        

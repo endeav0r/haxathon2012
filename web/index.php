@@ -11,6 +11,8 @@ if (isset($_REQUEST['challenges']))
     include 'm/challenges.php';
 elseif (isset($_REQUEST['scoreboard']))
     include 'm/scoreboard.php';
+elseif (isset($_REQUEST['submit']))
+    include 'm/submit.php';
 else
     include 'm/info.php';
 
