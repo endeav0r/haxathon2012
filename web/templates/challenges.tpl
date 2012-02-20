@@ -38,3 +38,13 @@ internally.</em></p>
 <div class="box_wrapper"><div class="box">
 <p><a href="http://10.0.2.20/terrorists3/">http://10.0.2.20/terrorists3/</a></p>
 </div></div>
+
+<h2 align="center">Chipwntle</h2>
+
+<p align="center"><em>The writeups and details for these challenges are available 
+internally.</em></p>
+
+<h3 align="center">(chipwntle-1) Chipwntle Free Burrito Competition</h3>
+<div class="box_wrapper"><div class="box">
+<p><a href="http://10.0.2.20/chipwntle/">http://10.0.2.20/chipwntle/</a></p>
+</div></div>
